@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*header start*/
+header{
+	padding: 40px 0;
+	/*border: 1px solid red;*/
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid;*/
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	margin-top: 6px;
+	/*border: 1px solid;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	/*border: 1px solid;*/
+	float: right;
+}
+.menu ul{
+	margin: 0;
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 11.33px 50px;
+	padding: 5px 0px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .33s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+	color: #FF0303;
+}
+/*header end*/
+/*footer start*/
+footer{
+    background-color: #f0f0f0;
+    padding: 4%;
+}
+.container{
+    /*border: 1px solid black;*/
+	overflow: hidden;
+}
+.pages ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+.pages ul li{
+    display: inline-block;
+    margin-left: 30px;
+}  
+.pages ul li:first-child{
+    margin-left: 0;
+}  
+.pages ul li a{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    /*border: 1px solid black;*/
+}
+.social ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}   
+.social ul li{
+    display: inline-block;
+    margin-left: 10px;
+}  
+.social ul li span{
+    display: inline-block;
+    vertical-align: middle;
+} 
+.social ul li a img{
+    vertical-align: middle;
+}
+/*footer end*/
